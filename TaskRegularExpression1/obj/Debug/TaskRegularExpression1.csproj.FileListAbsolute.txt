@@ -1,0 +1,9 @@
+D:\PROGRAMMING\MHM\Tapshiriq 1\TaskRegularExpression1\TaskRegularExpression1\bin\Debug\TaskRegularExpression1.exe.config
+D:\PROGRAMMING\MHM\Tapshiriq 1\TaskRegularExpression1\TaskRegularExpression1\bin\Debug\TaskRegularExpression1.exe
+D:\PROGRAMMING\MHM\Tapshiriq 1\TaskRegularExpression1\TaskRegularExpression1\bin\Debug\TaskRegularExpression1.pdb
+D:\PROGRAMMING\MHM\Tapshiriq 1\TaskRegularExpression1\TaskRegularExpression1\obj\Debug\TaskRegularExpression1.csprojResolveAssemblyReference.cache
+D:\PROGRAMMING\MHM\Tapshiriq 1\TaskRegularExpression1\TaskRegularExpression1\obj\Debug\TaskRegularExpression1.frmRegularExpression.resources
+D:\PROGRAMMING\MHM\Tapshiriq 1\TaskRegularExpression1\TaskRegularExpression1\obj\Debug\TaskRegularExpression1.Properties.Resources.resources
+D:\PROGRAMMING\MHM\Tapshiriq 1\TaskRegularExpression1\TaskRegularExpression1\obj\Debug\TaskRegularExpression1.csproj.GenerateResource.Cache
+D:\PROGRAMMING\MHM\Tapshiriq 1\TaskRegularExpression1\TaskRegularExpression1\obj\Debug\TaskRegularExpression1.exe
+D:\PROGRAMMING\MHM\Tapshiriq 1\TaskRegularExpression1\TaskRegularExpression1\obj\Debug\TaskRegularExpression1.pdb
