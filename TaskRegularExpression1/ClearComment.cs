@@ -22,22 +22,22 @@ namespace TaskRegularExpression1
 
         static string path;
         static string pattern = @"/\*(?:(?!\*/)(?:.|[\r\n]+))*\*/";
-
+        static string fileText = "";
 
 
         public class FayliOxu
         {
-            string fileText;
 
-            public string fayliOxu()
+
+            public void fayliOxu()
             {
                 StreamReader streamReader = new StreamReader(path);
-                return fileText = streamReader.ReadToEnd();
+                fileText = streamReader.ReadToEnd();
             }
         }
 
 
-        
+
         private void btnOpenFile_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFile = new OpenFileDialog();
@@ -49,20 +49,16 @@ namespace TaskRegularExpression1
 
             textBoxFilePath.Text = path;
             FayliOxu faylOxu = new FayliOxu();
-            richTextBoxOriginalContent.Text = faylOxu.fayliOxu();
+            faylOxu.fayliOxu();
+            richTextBoxOriginalContent.Text = fileText; ;
 
         }
 
         private void btnConvert_Click(object sender, EventArgs e)
         {
-            string fileText;
-            FayliOxu faylOxu = new FayliOxu();
-            fileText = faylOxu.fayliOxu();
-
             Regex regex = new Regex(pattern, RegexOptions.Multiline);
 
             richTextBoxConvertedContent.Text = regex.Replace(fileText, "");
-             
         }
     }
 }
